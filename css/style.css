@@ -1,17 +1,41 @@
+/* 
+Colors:
+Turquoise: 0AFFC3 
+Aqua: 09E0E8
+Robin's Egg Blue: 03B3FF
+Ocean Blue: 096AE8
+Dark Blue: 0A34FF
+*/
+
 body {
-    background-color:aqua;
+    background-color: dimgray;
+    color:0A34FF;
     }
 #Header {
     width:100%;
-    background-color:red;
-    }
-Header >h1 {
+    background-color:none;
+    margin: 0;
+    min-height: 80px;
+}
+#Header >h1 {
     margin:0;
+    text-align: center;
+    font-family: fantasy;
+    position: relative;
+    transform: translateY(50%)
     }
-#nav {
+#nav{
     width:100%;
-    background-color:beige;
+    background-color:096AE8;
+    margin: 0;
+    min-height:80px;
+    font-family: fantasy;
+    height:auto;
     }
+#nav > ul{
+    
+    
+}
 .menu {
     display:flex;
     background-color:blueviolet;
